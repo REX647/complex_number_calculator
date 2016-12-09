@@ -54,16 +54,28 @@
        url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.svg#NotoSans') format('svg');
 }
 
+html {
+  background: url(https://github.com/REX647/REX647.github.io/blob/master/encoded01.png?raw=true) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
-  background-color: #fff;
   padding:50px;
-  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#727272;
+  font: 16px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:rgb(255,255,255);
   font-weight:400;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color:#222;
+h1, h2 {
+  color:rgb(175,175,255);
+  margin:0 0 20px;
+}
+
+h3, h4, h5, h6 {
+  color:rgb(175,175,255);
   margin:0 0 20px;
 }
 
@@ -76,35 +88,35 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+  font-size:30px;
 }
 
 h2 {
-  color:#393939;
+  color:rgb(175,175,255);
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+  color:rgb(255,255,255);
 }
 
 a {
-  color:#39c;
+  color:rgb(175,175,255);
   text-decoration:none;
 }
 
 a:hover {
-  color:#069;
+  color:rgb(255,255,255);
 }
 
 a small {
-  font-size:11px;
-  color:#777;
+  font-size:12px;
+  color:rgb(175,175,255);
   margin-top:-0.3em;
   display:block;
 }
 
 a:hover small {
-  color:#777;
+  color:rgb(255,255,255);
 }
 
 .wrapper {
@@ -121,8 +133,8 @@ blockquote {
 
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-  color:#333;
-  font-size:12px;
+  color:rgb(255,255,255);
+  font-size:14px;
 }
 
 pre {
@@ -145,12 +157,12 @@ th, td {
 }
 
 dt {
-  color:#444;
+  color:rgb(255,255,255);
   font-weight:700;
 }
 
 th {
-  color:#444;
+  color:rgb(255,255,255);
 }
 
 img {
@@ -192,7 +204,7 @@ header li:last-child a {
 header ul a {
   line-height:1;
   font-size:11px;
-  color:#999;
+  color:rgb(255,255,255);
   display:block;
   text-align:center;
   padding-top:6px;
@@ -200,7 +212,7 @@ header ul a {
 }
 
 header ul a:hover {
-  color:#999;
+  color:rgb(255,255,255);
 }
 
 header ul a:active {
@@ -208,7 +220,7 @@ header ul a:active {
 }
 
 strong {
-  color:#222;
+  color:rgb(255,255,255);
   font-weight:700;
 }
 
@@ -220,7 +232,7 @@ header ul li + li + li {
 header ul a strong {
   font-size:14px;
   display:block;
-  color:#222;
+  color:rgb(255,255,255);
 }
 
 section {
@@ -230,12 +242,12 @@ section {
 }
 
 small {
-  font-size:11px;
+  font-size:12px;
 }
 
 hr {
   border:0;
-  background:#e5e5e5;
+  background:rgb(255,255,255);
   height:1px;
   margin:0 0 20px;
 }
